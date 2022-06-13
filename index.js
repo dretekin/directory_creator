@@ -7,8 +7,8 @@ var rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout,
 });
-dirManager();
-function dirManager() {
+dirCreator();
+function dirCreator() {
   rl.question("Please, enter your new directory path? ", function (newDirPath) {
     fs.mkdir(newDirPath, function (err) {
       if (err) {
@@ -18,7 +18,7 @@ function dirManager() {
             function (data) {
               data = data.toString().toLowerCase();
               if (data == "y") {
-                dirManager();
+                dirCreator();
               } else {
                 process.exit();
               }

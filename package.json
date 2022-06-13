@@ -1,0 +1,19 @@
+{
+  "name": "dircreator",
+  "version": "1.0.0",
+  "description": "create directories",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dretekin/directory_creator.git"
+  },
+  "author": "Pious",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dretekin/directory_creator/issues"
+  },
+  "homepage": "https://github.com/dretekin/directory_creator#readme"
+}
